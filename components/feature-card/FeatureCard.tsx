@@ -1,7 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Paperclip } from "lucide-react";
 
-function FeatureCard({ title, description }) {
+interface FeatureCardProps {
+    title: string;
+    description: string;
+}
+
+function FeatureCard({ title, description }: FeatureCardProps) {
     return (
         <Card>
             <CardContent className="pt-6">

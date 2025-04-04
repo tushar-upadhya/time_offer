@@ -13,7 +13,7 @@ function HeroSection() {
                                 Effortless Time Off Management
                             </h1>
                             <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                                Streamline your company's time off requests,
+                                Streamline your company&apos; time off requests,
                                 approvals, and tracking all in one place.
                             </p>
                         </div>
